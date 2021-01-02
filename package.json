@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "football-squads-3d React component",
   "main": "lib/index.js",
-  "module": "es/index.js",
   "files": [
     "css",
     "es",
@@ -19,7 +18,13 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "color": "^3.1.2",
+    "lodash": "^4.17.15",
+    "styled-components": "^4.4.1",
+    "react-pose": "^4.0.10",
+    "react-tracked": "^0.11.0"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
